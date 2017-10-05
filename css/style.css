@@ -1,0 +1,221 @@
+#hero{
+margin-top:100px;  
+}
+p{
+  text-transform: capitalize;
+}
+.btn-add{
+  color: #55C34D;
+  border: 2px solid #55C34D;
+  background-color: transparent;
+  padding: 3px 10px;
+}
+.btn-add:hover{
+  -webkit-box-shadow: 0px 2px 2px 1px #ccc;
+  -moz-box-shadow: 0px 2px 2px 1px #ccc;
+  box-shadow: 0px 2px 2px 2px #ccc;
+  color: #55C34D;
+
+}
+.btn-edit{
+  color: #44BBFF;
+  border: 2px solid #44BBFF;
+  background-color: transparent;
+  padding: 3px 10px;
+}
+.btn-edit:hover{
+  -webkit-box-shadow: 0px 2px 2px 1px #ccc;
+  -moz-box-shadow: 0px 2px 2px 1px #ccc;
+  box-shadow: 0px 2px 2px 2px #ccc;
+  color: #44BBFF;
+}
+
+.block-1{
+  margin-top: 10px;
+}
+
+.block-1 p , .child-block-2 p{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color:#595959;
+}
+
+.block-1 .fa-angle-up,
+.block-1 .fa-angle-down
+{
+  font-size: x-large
+}
+
+.block-2{
+  margin-top: 20px;
+}
+
+.block-2  p {
+  display:inline-block;
+  padding-right: 15px;
+  font-size: medium;
+  font-weight: 600;
+  color:#595959;
+}
+
+.block-3 div{
+  display:inline-block;
+  padding-right: 20px;
+  font-size: medium;
+  font-weight: 600;
+}
+.inuse{
+  color: #F07818;
+}
+.flagged{
+  color:#E91818;
+}
+.avail{
+  color:#27AE60;
+}
+
+.delete i{
+  font-size: x-large;
+  margin-top: 10px;
+  background-color: #E91818;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  cursor:pointer;
+}
+.parent-row > div{
+  padding-top: 10px;
+  background-color: #F0F1F5;
+  border-radius:2px;
+}
+
+.btn-upload{
+  color: #44BBFF;
+  border: 2px solid #44BBFF;
+  background-color: transparent;
+  padding: 3px 10px;
+}
+
+.btn-login{
+  background-color:#27AE60;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  width: 50%;
+}
+
+.btn-loginForce{
+  background-color:#FF7416;
+  color: white;
+  font-size: small;
+  width: 50%;
+}
+
+.btn-flagged{
+  background-color:#E91818;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+  width: 50%;
+}
+
+.btn-dwnload{
+  background-color:#808080;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  padding: 3px 10px;
+}
+.btn-signout{
+  background-color:#E91818;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  padding: 3px 10px;
+}
+
+.child-block-2, 
+.child-block-3,
+.child-block-4{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.child-block-3 p{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.user , .mail-skype{
+  display: inline-block;
+  text-align: center;
+}
+
+.mail-skype{
+  margin-left: 10px;
+  color: #3D8EB9;
+}
+.mail-skype span{
+  padding-left: 5px;
+}
+
+.mini-delete{
+  -webkit-transition: all .3s linear 0s;
+  transition: all .3s linear 0s;
+}
+
+.mini-delete i{
+  font-size: medium;
+  background-color: white;
+  color: #E91818;
+  border-radius: 3px;
+  border: 2px solid #E91818; 
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+.child-block-4 p:nth-child(2){
+font-size: medium;
+}
+
+.user .fa-user-circle{
+  font-size: 20px;
+  color:#2C82C9;
+}
+.user span:nth-child(2){
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-flagged .fa-pause{
+float: right;
+padding-top: 2px;
+}
+
+.child-row .row{
+  border: 2px solid #999999;
+  padding-top: 10px;
+}
+
+.child-row:not(:last-child) .row{
+  border-bottom: none;
+}
+.btn-login:hover,
+.btn-loginForce:hover,
+.btn-flagged:hover,
+.btn-dwnload:hover,
+.btn-signout:hover{
+  -webkit-box-shadow: 0px 2px 2px 1px #ccc;
+  -moz-box-shadow: 0px 2px 2px 1px #ccc;
+  box-shadow: 0px 2px 2px 2px #ccc;
+  color:white;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1200px) {
+  .child-block-1,
+  .block-1{
+      text-align: center;
+  }
+
+  .mini-delete,
+  .delete{
+      text-align: center;
+      margin: 20px 0px 20px 0px;
+  }
+}
