@@ -11,236 +11,197 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
+
+
+
 <div class="container" id="hero">
-                <div class="parent-row">
-                        <div class="col-lg-12">
-                                <div class="row">
-                                        <div class="col-md-4">
-                                                <div class="block-1">
-                                                        <button class="btn btn-link text-center collapse-toggle" data-toggle="collapse" data-target="#1"><i class="fa fa-angle-down"></i></button>
-                                                        <button type="button" class="btn btn-add text-center"><i class="fa fa-plus"></i></button>
-                                                        <button type="button" class="btn btn-edit text-center"><i class="fa fa-pencil"></i></button>
-                                                        <p>monster</p>
-                                                        <p><a href="#" title="Domain">[Monster.be-Europe]</a></p>
-                                                </div>
+                <div class="collapse-bar">
+                        <div class="row">
+                                <div class="col-md-4">
+                                        <div class="location">
+                                                <button class="btn btn-link text-center collapse-toggle" data-toggle="collapse" data-target="#1"><i class="fa fa-angle-down"></i></button>
+                                                <button type="button" class="btn btn-add text-center"><i class="fa fa-plus"></i></button>
+                                                <button type="button" class="btn btn-edit text-center"><i class="fa fa-pencil"></i></button>
+                                                <span>monster</span>
+                                                <span><a href="#" title="Domain">[Monster.be-Europe]</a></span>
                                         </div>
-                                        <div class="col-md-3">
-                                                <div class="block-2 text-center">
-                                                        <p>Job board</p>
-                                                        <p>World</p>
-                                                        <p>FR/EN/DE</p>
-                                                </div>
+                                </div>
+                                <div class="col-md-3">
+                                        <div class="world">
+                                                <span>Job board</span>
+                                                <span>World</span>
+                                                <span>FR/EN/DE</span>
                                         </div>
-                                        <div class="col-md-4">
-                                                <div class="block-3 text-center">
-                                                        <div class="total">
-                                                                <p>Total:</p>
-                                                                <p>100</p>
-                                                        </div>  
-
-                                                        <div class="inuse">
-                                                                <p>Inuse:</p>
-                                                                <p>70</p>
-                                                        </div>
-
-                                                        <div class="flagged">
-                                                                <p>Flagged:</p>
-                                                                <p>80</p>
-                                                        </div>
-
-                                                        <div class="avail">
-                                                                <p>Available:</p>
-                                                                <p>12</p>
-                                                        </div>
-                                                </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="count">
+                                                <div>Available</div>
+                                                <div>100</div>
                                         </div>
-                                        <div class="col-md-1">
-                                                <div class="block-3 text-center">
-                                                        <div class="delete">
-                                                                <i class="fa fa-trash"></i>
-                                                        </div>
-                                                </div>
+                                        <div class="count inuse">
+                                                <div>Inuse</div>
+                                                <div>70</div>
                                         </div>
+                                        <div class="count flagged">
+                                                <div>Flagged</div>
+                                                <div>80</div>
+                                        </div>
+                                        <div class="count avail">
+                                                <div>Available</div>
+                                                <div>12</div>
+                                        </div>
+                                                
+                                </div>
+                                <div class="col-md-1">
+                                        <span class="delete">
+                                                <i class="fa fa-trash"></i>
+                                        </span>
                                 </div>
                         </div>
                 </div>
 
-                <div class="container-fluid">
-                        <div id="1" class="collapse fade">
+                
+
+                <div id="1" class="collapse-content collapse">
                                  <!-- Child Row 1 -->
                                 <div class="child-row">
-                                                <div class="col-lg-12">
-                                                        <div class="row">
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-1">
-                                                                                <button type="button" class="btn btn-login text-center">Get login</button>
-                                                                                <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
-                                                                                <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
-                                                                                <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
-                                                                                
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-2">
-                                                                        <div class="child-block-2">
-                                                                                <p>Monster 01</p>
-                                                                                <p><i class="fa fa-comment"></i></p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-3">
-                                                                                <p class="avail">Token available !</p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-4">
-                                                                        
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-1">
-                                                                        <div class="child-block-5">
-                                                                                <div class="mini-delete hidden">
-                                                                                        <i class="fa fa-trash"></i>
-                                                                                </div>       
-                                                                        </div>
-                                                                </div>
+                                        <div class="row">
+                                                <div class="col-lg-3">
+                                                        <button type="button" class="btn btn-login text-center">Get login</button>
+                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
+                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
+                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                        <div class="website">
+                                                                <span>Monster 01</span>
+                                                                <span><i class="fa fa-comment"></i></span>
                                                         </div>
                                                 </div>
+                                                <div class="col-lg-3">
+                                                        <div class="token-status">
+                                                                <span class="avail">Token available !</span>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                </div>
+                                                <div class="col-lg-1">
+                                                        <span class="mini-delete hidden">
+                                                                <i class="fa fa-trash"></i>
+                                                        </span>  
+                                                </div>
+                                        </div>
                                 </div> 
                         
                                 <!-- Child Row 2 -->
-                                <div class=" child-row">                
-                                                <div class="col-lg-12">
-                                                        <div class="row">
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-1">
-                                                                                <button type="button" class="btn btn-loginForce text-center">Get login by force</button>
-                                                                                <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
-                                                                                <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
-                                                                                <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
-                                                                                
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-2">
-                                                                        <div class="child-block-2">
-                                                                                <p>Monster 06</p>
-                                                                                <p><i class="fa fa-key"></i></p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-3">
-                                                                                <p class="inuse">Time in use : 0 Days 01 Hour 35 minutes</p>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-3">
-                                                                        <div class="child-block-4">
-                                                                                <div class="user">
-                                                                                        <span><i class="fa fa-user-circle"></i></span>
-                                                                                        <span>John Doe</span>
-                                                                                </div>
-                                                                                <div class="mail-skype">
-                                                                                        <span><i class="fa fa-envelope"></i></span>
-                                                                                        <span><i class="fa fa-skype"></i></span>
-                                                                                </div>
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-lg-1">
-                                                                        <div class="child-block-5">
-                                                                                <div class="mini-delete hidden">
-                                                                                        <i class="fa fa-trash"></i>
-                                                                                </div>       
-                                                                        </div>
-                                                                </div>
+                                <div class=" child-row">  
+                                        <div class="row">
+                                                <div class="col-lg-3">
+                                                        <button type="button" class="btn btn-loginForce text-center">Get login by force</button>
+                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
+                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
+                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                        <div class="website">
+                                                                <span>Monster 06</span>
+                                                                <span><i class="fa fa-key"></i></span>
                                                         </div>
                                                 </div>
+                                                <div class="col-lg-3">
+                                                        <div class="token-status">
+                                                                <span class="inuse">Time in use : 0 Days 01 Hour 35 minutes</span>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                        <div class="user-info">
+                                                                <span class="user-info">
+                                                                        <span class="user-icon"><i class="fa fa-user-circle"></i></span>
+                                                                        <span>John Doe</span>
+                                                                </span>
+                                                                <span class="mail-skype">
+                                                                        <i class="fa fa-envelope"></i>
+                                                                        <i class="fa fa-skype"></i>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                        <span class="mini-delete hidden">
+                                                                <i class="fa fa-trash"></i>
+                                                        </span>  
+                                                </div>
+                                        </div>
                                 </div> 
         
                                 <!-- Child Row 3 -->
                                 <div class=" child-row">
-                                        <div class="col-lg-12">
-                                                <div class="row">
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-1">
-                                                                        <button type="button" class="btn btn-flagged text-center">Flagged</button>
-                                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
-                                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
-                                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
-                                                                        
-                                                                </div>
+                                        <div class="row">
+                                                <div class="col-lg-3">
+                                                        <button type="button" class="btn btn-flagged text-center">Flagged</button>
+                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
+                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
+                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                        <div class="website">
+                                                                <span>Monster 07</span>
                                                         </div>
-                                                        <div class="col-lg-2">
-                                                                <div class="child-block-2">
-                                                                        <p>Monster 07</p>
-                                                                </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                        <div class="token-status">
+                                                                <span class="flagged">Time in use : 0 Days 01 Hour 35 minutes</span>
                                                         </div>
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-3">
-                                                                        <p class="flagged">Token flagged at 12/12/17 at 13:47</p>
-                                                                </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                        <div class="user-info">
+                                                                <span class="user-info">
+                                                                        <span class="user-icon"><i class="fa fa-user-circle"></i></span>
+                                                                        <span>John Doe</span>
+                                                                </span>
+                                                                <span class="mail-skype">
+                                                                        <i class="fa fa-envelope"></i>
+                                                                        <i class="fa fa-skype"></i>
+                                                                </span>
                                                         </div>
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-4">
-                                                                        <div class="user">
-                                                                                <span><i class="fa fa-user-circle"></i></span>
-                                                                                <span>John Doe</span>
-                                                                        </div>
-                                                                        <div class="mail-skype">
-                                                                                <span><i class="fa fa-envelope"></i></span>
-                                                                                <span><i class="fa fa-skype"></i></span>
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-lg-1">
-                                                                <div class="child-block-5">
-                                                                        <div class="mini-delete hidden">
-                                                                                <i class="fa fa-trash"></i>
-                                                                        </div>       
-                                                                </div>
-                                                        </div>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                        <span class="mini-delete hidden">
+                                                                <i class="fa fa-trash"></i>
+                                                        </span>  
                                                 </div>
                                         </div>
                                 </div>
         
                                 <!-- Child Row 4 -->
                                 <div class="child-row">
-                                        <div class="col-lg-12 ">
-                                                <div class="row">
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-1">
-                                                                        <button type="button" class="btn btn-flagged text-center"> On hold <i class="fa fa-pause"></i></button>
-                                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
-                                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
-                                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
-                                                                        
-                                                                </div>
+                                        <div class="row">
+                                                <div class="col-lg-3">
+                                                        <button type="button" class="btn btn-flagged text-center"> On hold <i class="fa fa-pause"></i></button>
+                                                        <button type="button" class="btn btn-upload text-center"><i class="fa fa-upload"></i></button>
+                                                        <button type="button" class="btn btn-dwnload text-center"><i class="fa fa-download"></i></button>
+                                                        <button type="button" class="btn btn-signout text-center"><i class="fa fa-sign-out"></i></button>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                        <div class="website">
+                                                                <span>Monster 08</span>
                                                         </div>
-                                                        <div class="col-lg-2">
-                                                                <div class="child-block-2">
-                                                                        <p>Monster 08</p>
-                                                                </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                        <div class="token-status">
+                                                                <span class="flagged">Token flagged at 12/12/17 at 13:47</span>
                                                         </div>
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-3">
-                                                                        <p class="flagged">Token flagged at 12/12/17 at 13:47</p>
-                                                                </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                        <div class="child-block-4">
                                                         </div>
-                                                        <div class="col-lg-3">
-                                                                <div class="child-block-4">
-                                                                
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-lg-1">
-                                                                <div class="child-block-5">
-                                                                        <div class="mini-delete hidden">
-                                                                                <i class="fa fa-trash"></i>
-                                                                        </div>       
-                                                                </div>
-                                                        </div>
+                                                </div>
+                                                <div class="col-lg-1">
+                                                        <span class="mini-delete hidden">
+                                                                <i class="fa fa-trash"></i>
+                                                        </span>  
                                                 </div>
                                         </div>
                                 </div>
-                        </div>
-                        
                 </div>
 
                 
