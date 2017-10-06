@@ -14,7 +14,7 @@
   padding: 3px 10px;
 }
 .collapse-toggle {
-  font-size: 19px;
+  font-size: 17px;
 }
 .inuse {
   color: #F07818;
@@ -35,14 +35,21 @@
   text-align: center;
   width: 30px;
   height: 30px;
-  margin: 10% 0% 0% 50%;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 .btn-upload {
+  background-color: white;
   color: #44BBFF;
-  border: 2px solid #44BBFF;
-  background-color: transparent;
-  padding: 3px 10px;
+  border:2px solid #44BBFF;
+  border-radius: 5px; 
   font-size: 15px;
+  font-weight: 600;
+  padding: 3px 10px;
+}
+.btn-upload:hover{
+  color: white;
+  background-color: #44BBFF;
 }
 .btn-login {
   background-color: #27AE60;
@@ -65,18 +72,30 @@
   width: 50%;
 }
 .btn-dwnload {
-  background-color: #808080;
-  color: white;
+  background-color: white;
+  color: #808080;
+  border:2px solid #808080;
+  border-radius: 5px; 
   font-size: 15px;
   font-weight: 600;
   padding: 3px 10px;
 }
-.btn-signout {
-  background-color: #E91818;
+.btn-dwnload:hover{
+  background-color: #808080;
   color: white;
+}
+.btn-signout {
+  background-color: white;
+  color: #E91818;
+  border:2px solid #E91818;
+  border-radius: 5px; 
   font-size: 15px;
   font-weight: 600;
   padding: 3px 10px;
+}
+.btn-signout:hover{
+  background-color: #E91818;
+  color: white;
 }
 .user-info {
   text-align: center;
@@ -89,6 +108,11 @@
 .mail-skype span {
   padding-left: 5px;
 }
+
+.child-row:hover .mini-delete{
+  display: inline-block;
+}
+
 .mini-delete {
   font-size: 15px;
   border-radius: 50%;
@@ -97,7 +121,9 @@
   padding: 4px;
   cursor: pointer;
   text-align: center;
-  float: right;
+  margin-top: 5px;
+  margin-left:50px;
+  display: none;
 }
 
 .mini-delete i{
@@ -121,7 +147,7 @@
 }
 
 .count{
-  width:24%;
+  width:23%;
   display:inline-block;
   box-sizing:border-box;
   text-align: center;
@@ -140,6 +166,7 @@
   font-size: 15px;
   text-align: center;
   line-height: 3;
+  width: 66%;
 }
 .world span:first-child{
   float: left;
@@ -152,12 +179,13 @@
 }
 
 .location{
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
   color: #595959;
   text-transform: capitalize;
   float: left;
+  padding-top: 4px;
 }
 
 .location span:nth-last-child(2){
@@ -191,5 +219,5 @@
 }
 
 span.on-hold{
-float: right;
+margin-left: 10px;
 }

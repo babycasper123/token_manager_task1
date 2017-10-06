@@ -10,8 +10,8 @@ $( document ).ready(function() {
 // Show/hide Delete on hover
 
 
-$(document).on('mouseenter', '.child-row', function () {
-    $(this).find(".mini-delete").toggleClass( "hidden");
-}).on('mouseleave', '.child-row', function () {
-    $(this).find(".mini-delete").toggleClass( "hidden");
-});
+// $(document).on('mouseenter', '.child-row', function () {
+//     $(this).find(".mini-delete").toggleClass( "hidden");
+// }).on('mouseleave', '.child-row', function () {
+//     $(this).find(".mini-delete").toggleClass( "hidden");
+// });
