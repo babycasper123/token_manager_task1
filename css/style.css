@@ -26,14 +26,20 @@
   color: #27AE60;
 }
 .delete {
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 50%;
   background-color: #E91818;
   color: white;
   padding: 5px;
   cursor: pointer;
   text-align: center;
+  line-height: 3;
 }
+
+.delete i{
+  width: 18px;
+}
+
 .btn-upload {
   color: #44BBFF;
   border: 2px solid #44BBFF;
@@ -87,19 +93,23 @@
   padding-left: 5px;
 }
 .mini-delete {
-  transition: all .3s linear 0s;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 50%;
   background-color: #E91818;
   color: white;
-  padding: 5px;
+  padding: 4px;
   cursor: pointer;
   text-align: center;
+  float: right;
+}
+
+.mini-delete i{
+  width: 21px;
 }
 
 .child-row{
   border: 2px solid #999999;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 12px 10px 12px;
   border-radius: 2px;
 }
 .child-row:not(:last-child){
@@ -132,11 +142,16 @@
   color: #595959;
   font-size: 15px;
   text-align: center;
-  line-height: 30px;
+  line-height: 3;
 }
-
+.world span:first-child{
+  float: left;
+}
+.world span:last-child{
+  float: right;
+}
 .collapse-content{
-  padding:0px 30px 0px 30px;
+  padding:0px 15px 0px 15px;
 }
 
 .location{
@@ -144,9 +159,18 @@
   font-weight: 600;
   text-align: center;
   color: #595959;
+  text-transform: capitalize;
 }
 
-.user,.mail-skype{
+.location span:nth-last-child(2){
+  margin-left: 11px;
+}
+
+.location span>a{
+  text-decoration: underline;
+}
+
+.user ,.mail-skype{
   font-size: 18px;
 }
 .user-icon{
@@ -166,4 +190,8 @@
   font-weight: 600;
   text-align: center;
   line-height: 3;
+}
+
+span.on-hold{
+float: right;
 }
