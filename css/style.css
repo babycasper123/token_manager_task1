@@ -13,38 +13,8 @@
   background-color: transparent;
   padding: 3px 10px;
 }
- 
-.block-1 {
-  margin-top: 10px;
-}
-.block-1 p,
-.child-block-2 p {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-  color: #595959;
-  text-transform: capitalize;
-}
-.block-1 .fa-angle-up,
-.block-1 .fa-angle-down {
-  font-size: x-large
-}
-.block-2 {
-  margin-top: 20px;
-}
-.block-2 p {
-  display: inline-block;
-  padding-right: 15px;
-  font-size: medium;
-  font-weight: 600;
-  color: #595959;
-}
-.block-3 div {
-  display: inline-block;
-  padding-right: 20px;
-  font-size: medium;
-  font-weight: 600;
+.collapse-toggle {
+  font-size: 19px;
 }
 .inuse {
   color: #F07818;
@@ -63,11 +33,6 @@
   padding: 5px;
   cursor: pointer;
   text-align: center;
-}
-.parent-row > div {
-  padding-top: 10px;
-  background-color: #F0F1F5;
-  border-radius: 2px;
 }
 .btn-upload {
   color: #44BBFF;
@@ -110,18 +75,6 @@
   font-weight: 600;
   padding: 3px 10px;
 }
-.child-block-2,
-.child-block-3,
-.child-block-4 {
-  padding-top: 10px;
-  text-align: center;
-}
-.child-block-3 p {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-}
 .user-info {
   text-align: center;
   font-size: 18px;
@@ -143,15 +96,13 @@
   cursor: pointer;
   text-align: center;
 }
-.child-block-4 p:nth-child(2) {
-  font-size: medium;
-}
-.child-row .row {
+
+.child-row{
   border: 2px solid #999999;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 5px 10px 5px;
   border-radius: 2px;
 }
-.child-row:not(:last-child) .row {
+.child-row:not(:last-child){
   border-bottom: none;
 }
 .btn-login:hover,
