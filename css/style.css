@@ -25,17 +25,16 @@
 .avail {
   color: #27AE60;
 }
-.delete {
+.delete-icon {
   font-size: 15px;
   border-radius: 50%;
   background-color: #E91818;
   color: white;
   padding: 4px;
-  cursor: pointer;
   text-align: center;
   width: 30px;
   height: 30px;
-  margin-left: 25px;
+  margin: 0 auto;
   margin-top: 10px;
 }
 .btn-upload {
@@ -63,6 +62,7 @@
   color: white;
   font-size:13px;
   width: 50%;
+  font-weight: 600;
 }
 .btn-flagged {
   background-color: #E91818;
@@ -97,6 +97,21 @@
   background-color: #E91818;
   color: white;
 }
+.btn-delete{
+  background-color: white;
+  color: #E91818;
+  border: 2px solid #E91818;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 3px 5px;
+  width: 32px;
+  display: none;
+}
+.btn-delete:hover{
+  background-color: #E91818;
+  color: #FFFFFF;
+}
 .user-info {
   text-align: center;
   font-size: 18px;
@@ -109,33 +124,20 @@
   padding-left: 5px;
 }
 
-.child-row:hover .mini-delete{
+.block-item:hover .btn-delete{
   display: inline-block;
 }
 
-.mini-delete {
-  font-size: 15px;
-  border-radius: 50%;
-  background-color: #E91818;
-  color: white;
-  padding: 4px;
-  cursor: pointer;
+.mini-delete{
+  margin-left: 48px;
   text-align: center;
-  margin-top: 5px;
-  margin-left:50px;
-  display: none;
 }
-
-.mini-delete i{
-  width: 21px;
-}
-
-.child-row{
+.block-item{
   border: 2px solid #999999;
   padding: 10px 12px 10px 12px;
   border-radius: 2px;
 }
-.child-row:not(:last-child){
+.block-item:not(:last-child){
   border-bottom: none;
 }
 .btn-login:hover,
@@ -179,13 +181,13 @@
 }
 
 .location{
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
-  text-align: center;
   color: #595959;
   text-transform: capitalize;
   float: left;
-  padding-top: 4px;
+  width: 100%;
+  padding: 4px 0px 0px 20px;
 }
 
 .location span:nth-last-child(2){
@@ -208,7 +210,7 @@
   text-align: center;
   color: #595959;
   text-transform: capitalize;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .token-status{
